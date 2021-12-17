@@ -32,7 +32,7 @@ namespace aspdemocopa
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello COPA!");
+                    await context.Response.WriteAsync("Segunda Prueba!");
                 });
             });
         }
